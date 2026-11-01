@@ -1,0 +1,22 @@
+{
+  "version": 8,
+  "sources": {
+    "esri-topo": {
+      "type": "raster",
+      "tiles": [
+        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}"
+      ],
+      "tileSize": 256,
+      "attribution": "Esri"
+    }
+  },
+  "layers": [
+    {
+      "id": "esri-topo-layer",
+      "type": "raster",
+      "source": "esri-topo",
+      "minzoom": 0,
+      "maxzoom": 20
+    }
+  ]
+}

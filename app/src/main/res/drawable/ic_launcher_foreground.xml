@@ -1,0 +1,44 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Compass outer dotted guideline ring -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,54m-38,0a38,38 0 1,1 76,0a38,38 0 1,1 -76,0"
+        android:strokeWidth="1.5"
+        android:strokeColor="#4D6750A4"
+        android:strokeLineCap="round" />
+
+    <!-- Compass crosshair ticks -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M54,10 L54,18 M54,90 L54,98 M10,54 L18,54 M90,54 L98,54"
+        android:strokeWidth="2"
+        android:strokeColor="#806750A4" />
+
+    <!-- Compass secondary diagonal ticks -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M24,24 L30,30 M84,84 L78,78 M84,24 L78,30 M24,84 L30,78"
+        android:strokeWidth="1"
+        android:strokeColor="#406750A4" />
+
+    <!-- Beautiful map pin shadow / ripple base -->
+    <path
+        android:fillColor="#336750A4"
+        android:pathData="M54,82m-12,0a12,4 0 1,1 24,0a12,4 0 1,1 -24,0" />
+
+    <!-- Elegant high-craft Vector Map Pin -->
+    <path
+        android:fillColor="#FF2D55"
+        android:pathData="M54,20 C42.95,20 34,28.95 34,40 C34,55 54,80 54,80 C54,80 74,55 74,40 C74,28.95 65.05,20 54,20 Z" />
+
+    <!-- Glowing white center core of map pin -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,40m-7,0a7,7 0 1,1 14,0a7,7 0 1,1 -14,0" />
+
+</vector>

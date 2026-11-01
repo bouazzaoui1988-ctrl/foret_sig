@@ -1,0 +1,6 @@
+{
+  "name": "ForestApp V5",
+  "description": "A fresh simple map explorer application powered by Mapbox SDK",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
